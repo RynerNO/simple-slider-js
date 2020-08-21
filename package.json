@@ -1,0 +1,36 @@
+{
+	"name": "simple-slider-js",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "https://github.com/RynerNO/simple-slider-js.git",
+	"author": "RynerNO <ryner.no@gmail.com>",
+	"license": "MIT",
+	"scripts": {
+		"dev:serve": "webpack-dev-server --config webpack.dev.js",
+		"prod:build": "webpack --config webpack.prod.js"
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.10.5",
+		"@babel/core": "^7.9.0",
+		"@babel/preset-env": "^7.9.5",
+		"autoprefixer": "^9.7.6",
+		"babel-loader": "^8.1.0",
+		"babel-plugin-module-resolver": "^4.0.0",
+		"css-loader": "^3.5.3",
+		"fibers": "^5.0.0",
+		"file-loader": "^6.0.0",
+		"html-loader": "^1.1.0",
+		"html-webpack-plugin": "^4.2.0",
+		"mini-css-extract-plugin": "^0.9.0",
+		"precss": "^4.0.0",
+		"pug": "^2.0.4",
+		"pug-html-loader": "^1.1.5",
+		"pug-loader": "^2.4.0",
+		"sass": "^1.26.7",
+		"sass-loader": "^8.0.2",
+		"webpack": "^4.43.0",
+		"webpack-cli": "^3.3.11",
+		"webpack-dev-server": "^3.10.3",
+		"webpack-merge": "^4.2.2"
+	}
+}
